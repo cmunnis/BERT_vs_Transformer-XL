@@ -6,7 +6,7 @@ The goal of Natural Language Processing (NLP) is to train computers to analyze h
 
 # Weekly Progress Reports
 
-2/14/20: We've uploaded our abstract to the MassURC website and specified our needs for presentation.
+2/14/20: We've uploaded our abstract to the MassURC website and specified our needs for presentation. We created the GitHub repository for this project.
 
 2/22/20: We updated the abstract to have quotes from the two research papers we're going to reference in our project. Ed has been working on setting up his company's server to run BERT, while Vincent and I have been researching how to use/understand the results from both algorithms.
 
