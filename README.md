@@ -17,5 +17,7 @@ Devlin, Jacob, et al. “BERT: Pre-Training of Deep Bidirectional Transformers f
 
 2/22/20: We updated the abstract to have quotes from the two research papers we're going to reference in our project. Ed has been working on setting up his company's server to run BERT, and will be providing access to Vincent and Connor soon. Vincent and Connor have been researching how to use/understand the results from both algorithms.
 
+2/28/20: It was a bit close, but we have successfully been able to implement BERT onto our server, and are able to demonstrate it executing and working. With the structure of BERT implemented, our goal nw shifts from the basics of BERT to changing its dataset manually.
+
 #### Goal for Next Week
-We need to have a video showing that we're able to run BERT.
+We need to have a video or demonstration showing that we're able to run BERT.
