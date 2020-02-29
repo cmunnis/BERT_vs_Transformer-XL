@@ -72,8 +72,8 @@ def download_and_load_datasets(force_download=False):
 
 train, test = download_and_load_datasets()
 
-train = train.sample(2500)
-test = test.sample(2500)
+train = train.sample(3000)
+test = test.sample(3000)
 
 DATA_COLUMN = 'sentence'
 LABEL_COLUMN = 'polarity'
