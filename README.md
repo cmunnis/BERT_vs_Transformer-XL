@@ -22,6 +22,8 @@ Devlin, Jacob, et al. “BERT: Pre-Training of Deep Bidirectional Transformers f
 3/6/20: Alongside the change in data set, we are also in the process of modifying the function to output, and save the generated results, the input, and the amount of time, in milliseconds into a text file with a similar syntax to that of a JSON file. Both this, and changing our bert's data set (from the IMDB Database to the Wikipedia Database), are still a work in progress, but we are getting closer to its completion.
    We've converted our TF BERT program to operate on Tensorflow 2, improving functionality and allowing use with Keras. 
    We've installed transformer-xl onto our server and are writing a keras script for building, finetuning and testing our transformer-xl model. 
+   
+4/2/20: Amongst other goals, scripts are being developed to significantly speed-up the testing and comparing process, to hopefully increase development efficiency.
 
 #### Goal for Next Week
 We need to have a video or demonstration showing that we're able to run BERT.
