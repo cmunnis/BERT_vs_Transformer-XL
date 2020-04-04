@@ -30,6 +30,9 @@ Devlin, Jacob, et al. “BERT: Pre-Training of Deep Bidirectional Transformers f
    
 #### Vincent
    Currently in the process of creating intuitive testing and comparing scripts that will allow for increased productivity, as well as reformat the output of both BERT and Transformer-XL in a way that will allow both to be comparible to each other, and their output sent to different columns of a spreadsheet file, along with the base input, for ease of recording and comparing.
+   
+#### Connor
+   Continued to: read up on Machine Learning; learn Python to be able to help make the necessary changes; and look up examples of how to find/understand output for each model.
 
 #### Goal for Next Week
 We need to have a video or demonstration showing that we're able to run BERT.
