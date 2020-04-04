@@ -24,6 +24,7 @@ Devlin, Jacob, et al. “BERT: Pre-Training of Deep Bidirectional Transformers f
    We've installed transformer-xl onto our server and are writing a keras script for building, finetuning and testing our transformer-xl model. 
    
 4/2/20: Amongst other goals, scripts are being developed to significantly speed-up the testing and comparing process, to hopefully increase development efficiency.
+# Edward   
    Implemented entity-recognition.py for the Bert model, which can be viewed within our repository. This script is the counterpart to our entity recognition script for transformer xl. Both scripts read through a prepared script and identify entities that are containned within the scripts. We can use the combination of accuracy of the two models ability to find entities as well as the specificity of the entity categorization to judge the efficiency of the two models against each other. Our testing process will allow us to see how each model responds as the text used for entity analysis grows longer. 
    Additionally, background research will need to be done to see if bias is introduced due to the entity-recognition script utilizing pytorch rather than tensorflow-2, to see if it would be valuable to refactor the pipeline transformer-xl function to utilize pytorch as well. 
 
