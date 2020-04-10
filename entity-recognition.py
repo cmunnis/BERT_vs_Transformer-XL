@@ -25,4 +25,12 @@ inputs = tokenizer.encode(sequence, return_tensors="pt")
 outputs = model(inputs)[0]
 predictions = torch.argmax(outputs, dim=2)
 
-print([(token, label_list[prediction]) for token, prediction in zip(tokens, predictions[0].tolist())])
+# print([(token, label_list[prediction]) for token, prediction in zip(tokens, predictions[0].tolist())])
+
+bert_output_file = open('bert_output_data_file.txt', 'w')
+
+for token, prediction in list(zip(tokens, predictions[0].tolist())):
+	line = str(token + ", " + label_list[prediction] + "\r\n")
+	bert_output_file.write(line)
+	
+bert_output_file.close()
