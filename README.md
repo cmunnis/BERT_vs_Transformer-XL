@@ -32,7 +32,7 @@ Devlin, Jacob, et al. “BERT: Pre-Training of Deep Bidirectional Transformers f
 - *Connor*:    
    Continued to: read up on Machine Learning; learn Python to be able to help make the necessary changes; and look up examples of how to find/understand output for each model.
    
-**4/12/20**: Comparable data sourced from bert is currently functionally saved. However, further work is needed to encapsulate all of the required information, as well as identical formatting.
+**4/12/20**:   
 - *Edward*:    
    Implemented BERT question answering
 - *Vincent*:   
