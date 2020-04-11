@@ -38,7 +38,7 @@ Devlin, Jacob, et al. “BERT: Pre-Training of Deep Bidirectional Transformers f
 - *Vincent*:   
    Comparable data sourced from bert is currently functionally saved. However, further work is needed to encapsulate all of the required information, as well as identical formatting
 - *Connor*:    
-   Worked with Vincent on having the BERT and Transformer-XL output made readable and itemized.
+   Worked with Vincent on having the BERT and Transformer-XL outputs made readable and itemized.
 
 **Goal for Next Week**:
 We need to implement spreadsheet input functionality, make a unified spreadsheet input and output function with an increased data pool size past 512 tokens, and implement question answering on Transformer-XL to mirror the question answering on BERT.
