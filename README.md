@@ -24,13 +24,13 @@ Devlin, Jacob, et al. “BERT: Pre-Training of Deep Bidirectional Transformers f
    We've installed transformer-xl onto our server and are writing a keras script for building, finetuning and testing our transformer-xl model. 
    
 **4/2/20**: Amongst other goals, scripts are being developed to significantly speed-up the testing and comparing process, to hopefully increase development efficiency.
-- *Edward*   
+- *Edward*:   
    Implemented entity-recognition.py for the Bert model, which can be viewed within our repository. This script is the counterpart to our entity recognition script for transformer xl. Both scripts read through a prepared script and identify entities that are containned within the scripts. We can use the combination of accuracy of the two models ability to find entities as well as the specificity of the entity categorization to judge the efficiency of the two models against each other. Our testing process will allow us to see how each model responds as the text used for entity analysis grows longer. 
    Additionally, background research will need to be done to see if bias is introduced due to the entity-recognition script utilizing pytorch rather than tensorflow-2, to see if it would be valuable to refactor the pipeline transformer-xl function to utilize pytorch as well.    
-- *Vincent*
+- *Vincent*:
    Currently in the process of creating intuitive testing and comparing scripts that will allow for increased productivity, as well as reformat the output of both BERT and Transformer-XL in a way that will allow both to be comparible to each other, and their output sent to different columns of a spreadsheet file, along with the base input, for ease of recording and comparing.
-- *Connor*
+- *Connor*:
    Continued to: read up on Machine Learning; learn Python to be able to help make the necessary changes; and look up examples of how to find/understand output for each model.
 
-**Goal for Next Week**
+**Goal for Next Week**:
 We need to have a video or demonstration showing that we're able to run BERT.
