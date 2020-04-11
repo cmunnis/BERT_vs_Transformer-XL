@@ -34,9 +34,9 @@ Devlin, Jacob, et al. “BERT: Pre-Training of Deep Bidirectional Transformers f
    
 **4/12/20**: Comparable data sourced from bert is currently functionally saved. However, further work is needed to encapsulate all of the required information, as well as identical formatting.
 - *Edward*:    
-
+   Implemented BERT question answering
 - *Vincent*:   
-
+   Comparable data sourced from bert is currently functionally saved. However, further work is needed to encapsulate all of the required information, as well as identical formatting
 - *Connor*:    
    Worked with Vincent on having the BERT and Transformer-XL output made readable and itemized.
 
