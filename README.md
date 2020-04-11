@@ -34,7 +34,7 @@ Devlin, Jacob, et al. “BERT: Pre-Training of Deep Bidirectional Transformers f
    
 **4/12/20**:   
 - *Edward*:    
-   Implemented BERT question answering
+   Implemented BERT question answering, need to increase data pool for question answering to more than 512 tokens, or build a token delivery system instead. Will replicate BERT question answering into transformer xl. 
 - *Vincent*:   
    Comparable data sourced from bert is currently functionally saved. However, further work is needed to encapsulate all of the required information, as well as identical formatting
 - *Connor*:    
