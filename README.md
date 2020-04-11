@@ -29,7 +29,7 @@ Devlin, Jacob, et al. “BERT: Pre-Training of Deep Bidirectional Transformers f
    Additionally, background research will need to be done to see if bias is introduced due to the entity-recognition script utilizing pytorch rather than tensorflow-2, to see if it would be valuable to refactor the pipeline transformer-xl function to utilize pytorch as well.    
 - *Vincent*:   
    Currently in the process of creating intuitive testing and comparing scripts that will allow for increased productivity, as well as reformat the output of both BERT and Transformer-XL in a way that will allow both to be comparible to each other, and their output sent to different columns of a spreadsheet file, along with the base input, for ease of recording and comparing.
-- *Connor*: 
+- *Connor*:    
    Continued to: read up on Machine Learning; learn Python to be able to help make the necessary changes; and look up examples of how to find/understand output for each model.
 
 **Goal for Next Week**:
