@@ -50,7 +50,8 @@ We need to implement spreadsheet input functionality, make a unified spreadsheet
   Fixed our transformer-summarization model to not use BERT tokenization, read this source material to see how text summarization could be improved with transformer-xl https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/reports/custom/15776950.pdf
    For next week I will be changing our other tests (Named Entity Recognition, Next Sentence Prediction, Token Recognition and Summarization) to utilize the same testing structure. 
 - *Vincent*:
-
+   Generated a series of edge-case a logical-understanding cases for the Q&A testing.
+   Also worked on creating a more dynamic and comparitively logical system for the BERT data saving and generation. Unfortunately, it is not at a stage which is entirely finished yet, due to development difficulties. However, it is significantly closer as of now.
 - *Connor*:
    Per Ed's suggestion, gathered test cases for bert-qa-advanced.py for fine-tuning.
    
