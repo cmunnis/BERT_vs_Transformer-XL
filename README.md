@@ -49,3 +49,8 @@ We need to implement spreadsheet input functionality, make a unified spreadsheet
   Implemented a basic QA pipeline for transformers-xl, also reviewed documentation on how others have utilized transformer-xl for QA: https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/reports/default/15766157.pdf, as this type of behavior isn't what transformer-xl is designed/optimized for. 
   Fixed our transformer-summarization model to not use BERT tokenization, read this source material to see how text summarization could be improved with transformer-xl https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/reports/custom/15776950.pdf
    For next week I will be changing our other tests (Named Entity Recognition, Next Sentence Prediction, Token Recognition and Summarization) to utilize the same testing structure. 
+- *Vincent*:
+
+- *Connor*:
+   Per Ed's suggestion, gathered test cases for bert-qa-advanced.py for fine-tuning.
+   
