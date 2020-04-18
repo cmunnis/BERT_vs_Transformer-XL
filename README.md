@@ -44,7 +44,8 @@ Devlin, Jacob, et al. “BERT: Pre-Training of Deep Bidirectional Transformers f
 We need to implement spreadsheet input functionality, make a unified spreadsheet input and output function with an increased data pool size past 512 tokens, and implement question answering on Transformer-XL to mirror the question answering on BERT.
 
 **4/18/20**:
-- *Edward*
+- *Edward*:
   Implemented an improved BERT QA system that can be found within bert-qa-advanced.py. This file allows us to run large batch tests on BERT's question answering, it also has an improved output style.
   Implemented a basic QA pipeline for transformers-xl, also reviewed documentation on how others have utilized transformer-xl for QA: https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/reports/default/15766157.pdf, as this type of behavior isn't what transformer-xl is designed/optimized for. 
+  Fixed our transformer-summarization model to not use BERT tokenization, read this source material to see how text summarization could be improved with transformer-xl https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/reports/custom/15776950.pdf
    For next week I will be changing our other tests (Named Entity Recognition, Next Sentence Prediction, Token Recognition and Summarization) to utilize the same testing structure. 
