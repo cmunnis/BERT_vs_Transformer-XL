@@ -55,3 +55,10 @@ We need to implement spreadsheet input functionality, make a unified spreadsheet
 - *Connor*:
    Per Ed's suggestion, gathered test cases for bert-qa-advanced.py for fine-tuning.
    
+**4/25/20**:
+- *Edward*: 
+
+- *Vincent*: 
+   **+**: Upgraded the output of BERT's Q&A system to now output a CSV file containing 3 columns, one for the associated question, one for BERT's answer to that question, and one (Which is temporarily filled with "NULL"s) that will contain Transformer-XL's answer to the question, too.
+   
+- *Connor*: 
