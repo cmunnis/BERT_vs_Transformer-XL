@@ -34,31 +34,33 @@ Devlin, Jacob, et al. “BERT: Pre-Training of Deep Bidirectional Transformers f
    
 **4/12/20**:   
 - *Edward*:    
-   Implemented BERT question answering, need to increase data pool for question answering to more than 512 tokens, or build a token delivery system instead. Will replicate BERT question answering into transformer xl. 
+   + Implemented BERT question answering, need to increase data pool for question answering to more than 512 tokens, or build a token delivery system instead. Will replicate BERT question answering into transformer xl. 
 - *Vincent*:   
-   Comparable data sourced from bert is currently functionally saved. However, further work is needed to encapsulate all of the required information, as well as identical formatting
+   + Comparable data sourced from bert is currently functionally saved. However, further work is needed to encapsulate all of the required information, as well as identical formatting
 - *Connor*:    
-   Worked with Vincent on having the BERT and Transformer-XL outputs made readable and itemized.
+   + Worked with Vincent on having the BERT and Transformer-XL outputs made readable and itemized.
 
 **Goal for Next Week**:
-We need to implement spreadsheet input functionality, make a unified spreadsheet input and output function with an increased data pool size past 512 tokens, and implement question answering on Transformer-XL to mirror the question answering on BERT.
+   + We need to implement spreadsheet input functionality, make a unified spreadsheet input and output function with an increased data pool size past 512 tokens, and implement question answering on Transformer-XL to mirror the question answering on BERT.
 
 **4/18/20**:
 - *Edward*:
-  Implemented an improved BERT QA system that can be found within bert-qa-advanced.py. This file allows us to run large batch tests on BERT's question answering, it also has an improved output style.
-  Implemented a basic QA pipeline for transformers-xl, also reviewed documentation on how others have utilized transformer-xl for QA: https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/reports/default/15766157.pdf, as this type of behavior isn't what transformer-xl is designed/optimized for. 
-  Fixed our transformer-summarization model to not use BERT tokenization, read this source material to see how text summarization could be improved with transformer-xl https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/reports/custom/15776950.pdf
-   For next week I will be changing our other tests (Named Entity Recognition, Next Sentence Prediction, Token Recognition and Summarization) to utilize the same testing structure. 
+  + Implemented an improved BERT QA system that can be found within bert-qa-advanced.py. This file allows us to run large batch tests on BERT's question answering, it also has an improved output style.
+  + Implemented a basic QA pipeline for transformers-xl, also reviewed documentation on how others have utilized transformer-xl for QA: https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/reports/default/15766157.pdf, as this type of behavior isn't what transformer-xl is designed/optimized for. 
+  + Fixed our transformer-summarization model to not use BERT tokenization, read this source material to see how text summarization could be improved with transformer-xl https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/reports/custom/15776950.pdf
+   + For next week I will be changing our other tests (Named Entity Recognition, Next Sentence Prediction, Token Recognition and Summarization) to utilize the same testing structure. 
 - *Vincent*:
-   Generated a series of edge-case a logical-understanding cases for the Q&A testing.
-   Also worked on creating a more dynamic and comparitively logical system for the BERT data saving and generation. Unfortunately, it is not at a stage which is entirely finished yet, due to development difficulties. However, it is significantly closer as of now.
+   + Generated a series of edge-case a logical-understanding cases for the Q&A testing.
+   + Also worked on creating a more dynamic and comparitively logical system for the BERT data saving and generation. Unfortunately, it is not at a stage which is entirely finished yet, due to development difficulties. However, it is significantly closer as of now.
 - *Connor*:
-   Per Ed's suggestion, gathered test cases for bert-qa-advanced.py for fine-tuning.
+   + Per Ed's suggestion, gathered test cases for bert-qa-advanced.py for fine-tuning.
    
 **4/25/20**:
 - *Edward*: 
-
+   +
+   
 - *Vincent*:
    + Upgraded the output of BERT's Q&A system to now output a CSV file containing 3 columns, one for the associated question, one for BERT's answer to that question, and one (Which is temporarily filled with "NULL"s) that will contain Transformer-XL's answer to the question, too.
    
 - *Connor*: 
+   +
