@@ -64,4 +64,5 @@ Devlin, Jacob, et al. “BERT: Pre-Training of Deep Bidirectional Transformers f
    + Re-wrote old comments in the BERT Q&A for clarity-purposes.
    
 - *Connor*: 
-   + Increased number of question-and-answer test cases from 18 to 50. Attempted to find a way to have the results of the Transformer-XL put into a specific column in the CSV file Vincent set up, but was unsuccessful.
+   + Increased number of question-and-answer test cases from 18 to 50. 
+   + Attempted to find a way to have the results of the Transformer-XL put into a specific column in the CSV file Vincent set up, but was unsuccessful.
