@@ -65,6 +65,7 @@ Devlin, Jacob, et al. “BERT: Pre-Training of Deep Bidirectional Transformers f
 - *Edward*:
    + Researched methods of implementing transformer qa based on QANet + Transformer XL information included in the above Stanford Article
    + Implementing pretrained wikipedia edited QA model that includes transformer-xl attention management to properly test against BERT
+   + Rewrote pipeline for transformer-xl to accept test cases similar to bert-qa-advanced
    
 - *Vincent*:
    + Upgraded the output of BERT's Q&A system to now output a CSV file containing 3 columns, one for the associated question, one for BERT's answer to that question, and one (Which is temporarily filled with "NULL"s) that will contain Transformer-XL's answer to the question, too.
