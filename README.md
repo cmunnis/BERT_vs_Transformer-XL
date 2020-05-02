@@ -77,7 +77,7 @@ Devlin, Jacob, et al. “BERT: Pre-Training of Deep Bidirectional Transformers f
    
 **5/2/20**:
 - *Edward*:
-   +
+   + Additional implementation of xlnet on the transformer server. Additional research on using xlnet for QA. Basic implementation of sentence generation with xlnet/transformer-xl 
 - *Vincent*:
    +
 - *Connor*:
