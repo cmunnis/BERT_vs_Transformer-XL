@@ -82,4 +82,4 @@ Devlin, Jacob, et al. “BERT: Pre-Training of Deep Bidirectional Transformers f
    + Progress made towards xlnet Q&A's repair. Debugging unusual tuple structure issue with the output tokens.
    + Working on data visualization utilizing MatPlotLib 3.2
 - *Connor*:
-   +
+   + Worked on getting the skeleton of the research paper ready: abstract, works cited, and introduction.
