@@ -74,3 +74,11 @@ Devlin, Jacob, et al. “BERT: Pre-Training of Deep Bidirectional Transformers f
 - *Connor*:
    + Increased number of Q&A test cases from 18 to 50. 
    + Attempted to find a way to have the results of the Transformer-XL put into a specific column in the CSV file Vincent set up, but was unsuccessful.
+   
+**5/2/20**:
+- *Edward*:
+   +
+- *Vincent*:
+   +
+- *Connor*:
+   +
