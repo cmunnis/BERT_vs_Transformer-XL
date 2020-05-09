@@ -1,1 +1,3 @@
 A useful directory that we used for some training data: https://rajpurkar.github.io/SQuAD-explorer/
+
+A drive download link to one of the most recent states of our model: https://drive.google.com/file/d/1w9AMVZK-ICXfyDle0XetJ1pqGwk0qrem/view?usp=sharing
